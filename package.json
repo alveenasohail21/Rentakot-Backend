@@ -1,0 +1,32 @@
+{
+  "name": "rentakot-back-end",
+  "version": "1.0.0",
+  "description": "A Complete Backend API of Rentakot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/Codenvoi/rentakot-back-end.git"
+  },
+  "keywords": [
+    "Node.js",
+    "mongoose",
+    "mongodb"
+  ],
+  "author": "Codenvoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/Codenvoi/rentakot-back-end/issues"
+  },
+  "homepage": "https://gitlab.com/Codenvoi/rentakot-back-end#README",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "co": "^4.6.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.6",
+    "morgan": "^1.7.0"
+  }
+}
